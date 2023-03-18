@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  dlp-bot:
+    image: orangepeelbeef/dlap-bot:latest
+    restart: always
+    stop_grace_period: 2m
+    environment:
+      - TOKEN=token
+      - STATUSCHANNEL=status_channel_id
+      - VOICECHANNEL=voice_channel_id
+      - CLIENTID=client_id
+      - OWNERID=owner_id
+      - DJROLE=dj_role
+    volumes:
+      - "/path/to/music:/usr/local/DLAP/music"

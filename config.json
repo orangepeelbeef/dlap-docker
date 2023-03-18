@@ -1,0 +1,13 @@
+{
+    "token": "TOKEN_VALUE",
+    "txtFile": true,
+    "shuffle": false,
+    "repeat": false,
+    "statusChannel": "STATUSCHANNEL_VALUE",
+    "voiceChannel": "VOICECHANNEL_VALUE",
+    "clientID": "CLIENTID_VALUE",
+    "ownerID": "OWNERID_VALUE",
+    "djRole": "DJROLE_VALUE",
+    "presenceActivity": "Playing some files",
+    "activityType": [0]
+}
