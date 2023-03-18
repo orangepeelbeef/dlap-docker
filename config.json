@@ -1,6 +1,6 @@
 {
     "token": "TOKEN_VALUE",
-    "txtFile": true,
+    "txtFile": false,
     "shuffle": false,
     "repeat": false,
     "statusChannel": "STATUSCHANNEL_VALUE",
